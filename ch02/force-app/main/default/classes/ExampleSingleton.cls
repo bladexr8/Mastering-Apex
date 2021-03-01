@@ -16,7 +16,7 @@ public inherited sharing class ExampleSingleton {
 
     public String getMetadata() {
         if (metadata == null) {
-            metadata = 'Sample Metadata'
+            metadata = 'Sample Metadata';
         }
         return metadata;
     }
